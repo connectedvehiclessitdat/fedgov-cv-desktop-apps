@@ -1,0 +1,100 @@
+{
+   "autostart":    {
+      "enable": true,
+      "delay": 1000
+   },
+   "window":    {
+      "title": "Replay Vehicle Situation Data",
+      "bounds":       {
+         "left": 13,
+         "top": 44,
+         "width": 554,
+         "height": 926
+      },
+      "splitter":       {
+         "position": 578,
+         "lastPos": 408,
+         "weight": 0.5
+      },
+      "restore": true
+   },
+   "map":    {
+      "source": "MapQuestOsm",
+      "center":       {
+         "lat": 42.48640316501018,
+         "lon": -83.47403526306152
+      },
+      "zoom": 14,
+      "restore": true,
+      "show":       {
+         "grid": false,
+         "zoomCtrl": true,
+         "toolTip": false
+      }
+   },
+   "marker":    {
+	  "forceVisible": true,
+      "color": "blue",
+      "expire": 5000,
+      "flush": 10000
+   },
+   "draw":    {
+      "singleRectangle": true,
+      "markers":       [
+                  {
+            "color": "yellow",
+            "lat": 42.49590180647014,
+            "lon": -83.45649708953668
+         },
+                  {
+            "color": "green",
+            "lat": 42.49585,
+            "lon": -83.46619
+         },
+                  {
+            "color": "yellow",
+            "lat": 42.49530980270562,
+            "lon": -83.47606281109584
+         },
+                  {
+            "color": "yellow",
+            "lat": 42.49094092985,
+            "lon": -83.4757706295694
+         },
+                  {
+            "color": "green",
+            "lat": 42.48662167039044,
+            "lon": -83.47607380586155
+         },
+                  {
+            "color": "yellow",
+            "lat": 42.4837871025511,
+            "lon": -83.47542260775681
+         },
+                  {
+            "color": "yellow",
+            "lat": 42.48068430308413,
+            "lon": -83.47572745974001
+         },
+                  {
+            "color": "#9400D3",
+            "lat": 42.47867627631743,
+            "lon": -83.47521954029631
+         },
+                  {
+            "color": "green",
+            "lat": 42.47943,
+            "lon": -83.46936
+         },
+                  {
+            "color": "#9400D3",
+            "lat": 42.47637000000001,
+            "lon": -83.45553
+         }
+      ]
+   },
+   "provider":    {
+      "className": "gov.usdot.desktop.apps.provider.sdpc.MongoDbSdpcSenderProvider",
+      "config": "sdpc_veh_sit_data_config.json"
+   }
+}

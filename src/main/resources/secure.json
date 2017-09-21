@@ -1,0 +1,27 @@
+{
+    "secure": {
+        "enable": true,
+        "psid": 12257,
+        "certs": [
+            {
+                "cert": {
+                    "name": "CA",
+                    "path": "C:/Users/demo/Desktop/Sender Full - V2.2/certs/root_ca.cert"
+                }
+            },
+            {
+                "cert": {
+                    "name": "RA",
+                    "path": "C:/Users/demo/Desktop/Sender Full - V2.2/certs/root_ra.cert"
+                }
+            },
+            {
+                "cert": {
+                    "name": "Self",
+                    "path": "C:/Users/demo/Desktop/Sender Full - V2.2/certs/SDW20150101.crt",
+                    "key": "C:/Users/demo/Desktop/Sender Full - V2.2/certs/SDW_decrypt_key.txt"
+                }
+            }
+        ]
+    }
+}

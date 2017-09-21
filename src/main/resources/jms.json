@@ -1,0 +1,11 @@
+{
+    "providerClass": "gov.usdot.util.provider.JMSGeoPointProvider",
+    "rendererClass": "",
+    "brokerUrl": "ssl://54.204.184.202:61616",
+    "brokerTopic": "10000000",
+    "keystoreFile": "@keystores/desktop-apps-keystore@",
+    "truststoreFile": "@truststores/desktop-apps-truststore@",
+    "storePassword": "@desktop-apps/store.password@",
+    "replayDelayMillis": 1000,
+    "printData" : "true"
+}

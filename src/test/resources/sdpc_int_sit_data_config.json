@@ -1,0 +1,23 @@
+{
+   "source":{
+      "host":"10.118.209.100",
+      "port":27017,
+      "database":"cvdb",
+      "collection":"intersectionSitData",
+      "query":{
+         "$query":{
+            "dialogId":163
+         },
+         "$orderby":{
+            "deCreatedAt":-1
+         }
+      }
+   },
+   "destination":{
+      "host":"10.98.65.120",
+      "port":47651
+   },
+   "other":{
+		"verbose": true
+   }
+}

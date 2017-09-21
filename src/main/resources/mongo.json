@@ -1,0 +1,12 @@
+{
+    "providerClass": "gov.usdot.util.provider.MongoDBGeoPointProvider",
+    "rendererClass": "",
+    "mongoHost": "54.234.3.195",
+    "mongoPort": 8080,
+    "mongoDatabase": "dbname",
+    "mongoCollection": "vehSitDataMessage",
+    "mongoQueryKey": "msgID",
+    "mongoQueryValue": "138",
+    "replayDelayMillis": 500,
+    "printData" : "true"
+}

@@ -1,0 +1,12 @@
+{
+   "source":{
+      "host":"10.118.209.100",
+      "collection":"intersectionSitData"
+   },
+   "destination":{
+      "host":"10.98.65.120",
+   },
+   "other":{
+      "verbose": true
+   }
+}
